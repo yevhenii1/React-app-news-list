@@ -1,0 +1,40 @@
+.form {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.formWrapper textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+.title {
+    height: 40px;
+}
+.content {
+    height: 200px;
+}
+.btn{
+    background-color: #dcdcdc;
+    border: none;
+    width: 120px;
+    height: 42px;
+    font-size: 16px;
+    color: #3f3f3f;
+    opacity: .8;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.btn:hover{
+    opacity: .6;
+
+}
+@media screen and (max-width: 700px) {
+    .form {
+        width: 100%;
+    }
+}

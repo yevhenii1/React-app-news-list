@@ -1,0 +1,51 @@
+.header {
+    color: #000;
+    background-color: #fff;
+}
+.wrapper {
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.auth {
+    display: flex;
+}
+.auth a {
+    line-height: 45px;
+    margin-left: 10px;
+}
+.auth a:hover {
+    opacity: .6;
+}
+.auth img{
+    border-radius: 50%;
+    width: 20%;
+    margin: 0 10px;
+}
+.item a {
+    line-height: 45px;
+    margin-right: 20px;
+}
+.item a:hover {
+    opacity: .6;
+}
+.userNane {
+    line-height: 45px;
+    margin-right: 20px;
+}
+.btn {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    font-size: 14px;
+}
+.btn:hover {
+    opacity: .6;
+}
+@media screen and (max-width: 680px) {
+    .wrapper {
+        padding: 0 15px;
+    }
+}
