@@ -19,3 +19,5 @@
 /news/:newsId/edit — страница новости в режиме редактирования
 ![3](https://user-images.githubusercontent.com/30208128/74679391-63ebe580-51c6-11ea-9ffb-02fa603af612.png)
 Для авторизации, используйте Google Sign In или стандартну
+[](url)
+![Untitled-1](https://user-images.githubusercontent.com/30208128/87476861-c808bd80-c62f-11ea-94de-67ae6719d4de.jpg)
